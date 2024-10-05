@@ -1,0 +1,341 @@
+{
+    "products": [{
+            "id": "01",
+            "name": "Nike Air Force 1'07",
+            "price": "2,929,000đ",
+            "brand": "Nike",
+            "type": "Men's shoes",
+            "imgLink": "assets/image/Nike Air Force 1'07.png",
+            "sale": "",
+            "desc": "Sự rạng rỡ vẫn tồn tại trong Nike Air Force 1 '07, phiên bản bóng rổ nguyên bản mang đến sự thay đổi mới mẻ về những gì bạn biết rõ nhất: lớp phủ được khâu bền, lớp hoàn thiện gọn gàng và lượng đèn flash hoàn hảo giúp bạn tỏa sáng."
+        },
+        {
+            "id": "02",
+            "name": "Air Jordan 1 Low",
+            "price": "3,239,000₫",
+            "brand": "Nike",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/Air Jordan 1 Low SE.png",
+            "sale": "",
+            "desc": "Bạn đã biết chúng sắc nét và sạch sẽ. Phần trên của chúng được làm từ da và vải, đồng thời chúng có sự thoải mái mang tính biểu tượng của Nike Air ở đế. Họ sẽ kết hợp với bất kỳ trang phục nào—vậy nó sẽ như thế nào?"
+        },
+        {
+            "id": "03",
+            "name": "Nike Court Vision Low Next Nature",
+            "price": "1,909,000₫",
+            "brand": "Nike",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/Nike Court Vision Low Next Nature.png",
+            "sale": "",
+            "desc": "Yêu thích vẻ ngoài cổ điển của bóng rổ thập niên 80 nhưng lại quan tâm đến văn hóa nhịp độ nhanh của trò chơi ngày nay? Gặp gỡ Nike Court Vision Low. Một sản phẩm cổ điển được phối lại với ít nhất 20% vật liệu tái chế tính theo trọng lượng, lớp phủ trên và đường khâu sắc nét vẫn giữ được linh hồn của phong cách nguyên bản. Cổ áo sang trọng, cắt thấp giúp kiểu dáng đẹp và thoải mái cho thế giới của bạn."
+        },
+        {
+            "id": "04",
+            "name": "Nike Dunk Low Retro",
+            "price": "2,929,000₫",
+            "brand": "Nike",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/Nike Dunk Low Retro.png",
+            "sale": "",
+            "desc": "Được thiết kế dành cho gỗ cứng nhưng lại được ưa chuộng trên đường phố, biểu tượng bóng rổ của thập niên 80 trở lại với các chi tiết cổ điển và sự tinh tế của những chiếc vòng quay cổ điển. Cổ giày có đệm, cổ thấp và đế giữa xốp giúp bạn mang theo trò chơi của mình đến bất cứ đâu—một cách thoải mái."
+        },
+        {
+            "id": "05",
+            "name": "Nike SB Force 58 Premium",
+            "price": "2,349,000₫",
+            "brand": "Nike",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/Nike SB Force 58 Premium.png",
+            "sale": "",
+            "desc": "Là cải tiến mới nhất và tuyệt vời nhất được tung ra đường phố, Nike SB Force 58 Premium mang đến cho bạn độ bền của đế lót giày với tính linh hoạt của giày lưu hóa. Được làm từ da mềm, dẻo dai và được hoàn thiện bằng các lỗ đục lỗ, toàn bộ diện mạo mang đậm phong cách bóng rổ truyền thống ADN."
+        }, {
+            "id": "06",
+            "name": "Air Jordan 1 Mid SE",
+            "price": "3,959,000₫",
+            "brand": "Nike",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/Air Jordan 1 Mid SE.png",
+            "sale": "3,365,149₫",
+            "desc": "Thêm một số màu sắc cổ điển và trông thật tuyệt khi làm điều đó. Đôi giày này có da nubuck và da lộn ở phía trên mang lại cảm giác sang trọng. Đế Nike Air giúp mỗi bước đi của bạn luôn nhẹ nhàng… à, không khí."
+        }, {
+            "id": "07",
+            "name": "Nike SB React Leo Premium",
+            "price": "2,929,000₫",
+            "brand": "Nike",
+            "type": "Skate Shoes",
+            "imgLink": "assets/image/Nike SB React Leo Premium.png",
+            "sale": "2,343,199₫",
+            "desc": "Sang trọng và tiện ích kết hợp với nhau trong sự hợp tác phi giới tính này với Leo Baker. Được thiết kế để trượt dễ dàng với độ chính xác ở cấp độ cao hơn, những đôi giày này được thiết kế hoàn hảo để mang lại hiệu suất ổn định và lâu dài hơn. Được thử nghiệm bởi Leo, được thiết kế dành cho bạn."
+        }, {
+            "id": "08",
+            "name": "Jumpman MVP",
+            "price": "4,849,000₫",
+            "brand": "Nike",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/jumpman-mvp-shoes-JV1HCs.png",
+            "sale": "",
+            "desc": ""
+        }, {
+            "id": "09",
+            "name": "Air Jordan Legacy 312 Low",
+            "price": "4,259,000₫",
+            "brand": "Nike  ",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/air-jordan-legacy-312-low-shoes-6Vd4Xl.png",
+            "sale": "",
+            "desc": ""
+        }, {
+            "id": "10",
+            "name": "Nike Air Force 1 High By You",
+            "price": "4,259,000₫",
+            "brand": "Nike",
+            "type": "Men's Custom Shoes",
+            "imgLink": "assets/image/custom-nike-air-force-1-high-by-you-shoes.png",
+            "sale": "",
+            "desc": ""
+        }, {
+            "id": "11",
+            "name": "Nike Dunk High Warped Unlocked By You",
+            "price": "4,849,000₫",
+            "brand": "Nike",
+            "type": "Custom Women's Shoes",
+            "imgLink": "assets/image/custom-dunk-high-unlocked-warped-by-you.png",
+            "sale": "",
+            "desc": ""
+        }, {
+            "id": "12",
+            "name": "Nike Fly.By Mid 3",
+            "price": "1,909,000₫",
+            "brand": "Nike",
+            "type": "Basketball Shoes",
+            "imgLink": "assets/image/flyby-mid-3-basketball-shoes-jFHsxb.png",
+            "sale": "",
+            "desc": ""
+        }, {
+            "id": "13",
+            "name": "Nike Air Flight Lite Mid",
+            "price": "3,829,000₫",
+            "brand": "Nike",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/air-flight-lite-mid-shoe-GrnpgF.png",
+            "sale": "",
+            "desc": ""
+        }, {
+            "id": "14",
+            "name": "Nike Precision 6",
+            "price": "2,069,000₫",
+            "brand": "Nike",
+            "type": "Basketball Shoes",
+            "imgLink": "assets/image/precision-6-basketball-shoes-h5907m.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "15",
+            "name": "Nike Impact 4",
+            "price": "2,649,000₫",
+            "brand": "Nike",
+            "type": "Basketball Shoes",
+            "imgLink": "assets/image/impact-4-basketball-shoes-CcJxBx.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "16",
+            "name": "Nike Killshot 2 Leather",
+            "price": "2,779,000₫",
+            "brand": "Nike",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/killshot-2-leather-shoes-kGLK0c.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "17",
+            "name": "Nike Air Max Excee",
+            "price": "2,929,000₫",
+            "brand": "Nike",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/air-max-excee-shoes-BND2jb.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "18",
+            "name": "Nike G.T. Cut 3 ASW EP",
+            "price": "5,869,000₫",
+            "brand": "Nike",
+            "type": "Basketball Shoes",
+            "imgLink": "assets/image/gt-cut-3-asw-ep-basketball-shoes-hMM20h.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "19",
+            "name": "Air Pegasus '89 G NRG",
+            "price": "4,109,000₫",
+            "brand": "Nike",
+            "type": "Golf Shoes",
+            "imgLink": "assets/image/air-pegasus-89-g-nrg-golf-shoes-59Dfnm.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "20",
+            "name": "Jordan Stay Loyal 3",
+            "price": "3,369,000₫",
+            "brand": "Nike",
+            "type": "Men's shoes",
+            "imgLink": "assets/image/jordan-stay-loyal-3-shoes-GNHN2X.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "21",
+            "name": "Jordan Max Aura 5",
+            "price": "3,829,000₫",
+            "brand": "Nike",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/jordan-max-aura-5-shoes-ZBZ4Pz.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "22",
+            "name": "Jumpman Two Trey",
+            "price": "4,409,000₫",
+            "brand": "Nike",
+            "type": "Men's Shoes",
+            "imgLink": "assets/image/jumpman-two-trey-shoes-rhmBzG.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "23",
+            "name": "Nike Pegasus 40",
+            "price": "3,829,000₫",
+            "brand": "Nike",
+            "type": "Men's Road Running Shoes",
+            "imgLink": "assets/image/pegasus-40-road-running-shoes-3JpHzl.png",
+            "sale": "2,488,849₫",
+            "desc": ""
+
+        }, {
+            "id": "24",
+            "name": "Nike Pegasus Turbo",
+            "price": "4,409,000₫",
+            "brand": "Nike",
+            "type": "Men's Road Running Shoes",
+            "imgLink": "assets/image/pegasus-turbo-road-running-shoes-MSSVMK.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "25",
+            "name": "Nike Invincible 3",
+            "price": "5,279,000₫",
+            "brand": "Nike",
+            "type": "Men's Road Running Shoes",
+            "imgLink": "assets/image/invincible-3-road-running-shoes-Wwmmlp.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "26",
+            "name": "Nike Downshifter 12",
+            "price": "1,909,000₫",
+            "brand": "Nike",
+            "type": "Men's Road Running Shoes",
+            "imgLink": "assets/image/downshifter-12-road-running-shoes-kQLnZn.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "27",
+            "name": "Air Jordan 1 Low",
+            "price": "3,239,000₫",
+            "brand": "Nike",
+            "type": "Shoes",
+            "imgLink": "assets/image/air-jordan-1-low-shoes-6Q1tFM.png",
+            "sale": "2,591,199₫",
+            "desc": ""
+
+        }, {
+            "id": "28",
+            "name": "Nike Revolution 6",
+            "price": "1,759,000₫",
+            "brand": "Nike",
+            "type": "Men's Road Running Shoes",
+            "imgLink": "assets/image/revolution-6-road-running-shoes-NC0P7k.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "29",
+            "name": "Nike Defy All Day",
+            "price": "1,909,000₫",
+            "brand": "Nike",
+            "type": "Men's Training Shoe",
+            "imgLink": "assets/image/defy-all-day-training-shoe-LtD2G1.png",
+            "sale": "",
+            "desc": ""
+
+        }, {
+            "id": "30",
+            "name": "Nike Air Max Alpha Trainer 5",
+            "price": "2,499,000₫",
+            "brand": "Nike",
+            "type": "Men's Workout Shoes",
+            "imgLink": "assets/image/air-max-alpha-trainer-5-workout-shoes-x8Jzj6.png",
+            "sale": "",
+            "desc": ""
+
+        },
+        {
+            "id": "31",
+            "name": "Nike Air Force 1 GTX",
+            "price": "Discounted from4,699,000₫",
+            "brand": "Nike",
+            "type": "Men's Workout Shoes",
+            "imgLink": "assets/image/air-force-1-gtx-shoes-l3ck9t.png",
+            "sale": "3,759,199₫",
+            "desc": ""
+
+        },
+        {
+            "id": "32",
+            "name": "Nike Air Max Pulse",
+            "price": "4,409,000₫",
+            "brand": "Nike",
+            "type": "Men's Workout Shoes",
+            "imgLink": "assets/image/air-max-pulse-shoes-2bZSZ.png",
+            "sale": "2,645,399₫",
+            "desc": ""
+
+        },
+        {
+            "id": "33",
+            "name": "Nike Air Max 97 SE",
+            "price": "5,279,000₫",
+            "brand": "Nike",
+            "type": "Men's Workout Shoes",
+            "imgLink": "assets/image/air-max-97-se-shoes-TlGwpt.png",
+            "sale": "3,431,349₫",
+            "desc": ""
+
+        },
+        {
+            "id": "34",
+            "name": "Nike Air Max 1",
+            "price": "4,109,000₫",
+            "brand": "Nike",
+            "type": "Men's Workout Shoes",
+            "imgLink": "assets/image/air-max-1-shoes-ZCSX34.png",
+            "sale": "2,465,399₫",
+            "desc": ""
+
+        }
+    ]
+
+
+}
