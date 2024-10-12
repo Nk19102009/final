@@ -31,7 +31,7 @@ signUpForm.addEventListener('submit', (event) => {
     .then((userCredential) => {
       const user = userCredential.user;
       alert('User created: ' + user.email);
-      window.location.href = "login.html"; // Redirect to sign-in page after registration
+      window.location.href = "taikhoan1.html"; // Redirect to sign-in page after registration
     })
     .catch((error) => {
       const errorMessage = error.message;

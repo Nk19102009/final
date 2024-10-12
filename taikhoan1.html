@@ -41,33 +41,30 @@
                 <a href="cart.html"><img src="assets/image/cart.png" width="30px" height="30px"></a>
             </div>
     </header>
-    <form id="sign-up"></form>
-    <div></div>
-    <div class="row header">
-        <h2>Login</h2>
-    </div>
+    <form id="log-in" class="form1">
+        <div></div>
+        <div class="row header">
+            Login
+        </div>
 
+        <div class="row row_email">
+            <input type="email" id="email" placeholder="Email" required />
+            <div class="error" id="email-error1"></div>
+        </div>
 
+        <div class="row row_password">
+            <input type="password" id="password" placeholder="Password" required />
+            <div class="error" id="password-error"></div>
+        </div>
 
-    <div class="row row_email">
-        <input type="email" id="email" placeholder="Email" required />
-        <div class="error" id="email-error"></div>
-    </div>
-
-    <div class="row row_confirm_password">
-        <input type="password" id="confirmPassword" placeholder="Confirm password" required />
-        <div class="error" id="confirm-password-error"></div>
-    </div>
-
-    <div class="row">
-        <button type="submit" id="submit">Login</button>
-    </div>
-
-    <div class="error" id="error-message"></div>
-
-    </div>
-
+        <div class="row ">
+            <button type="submit" id="submit">Login</button>
+        </div>
+        <div class="row Account">
+            Create account <a href="taikhoan.html">Sign up!</a>
+        </div>
     </form>
+
 
     <div class=" footer ">
         <div class=" container ">
@@ -111,7 +108,7 @@
         </div>
     </div>
 
+    <script type="module" src="main.js"></script>
 </body>
-<script type="module" src="signup.js"></script>
 
 </html>

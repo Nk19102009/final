@@ -1,57 +1,30 @@
-let users = []
+import { auth } from './firebase.js';
+import { signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-auth.js";
 
-function register() {
-    let fname_input = document.getElementById('fname-input').value
+// login.js
 
-    let email_input = document.getElementById('email-input').value
-    let password_input = document.getElementById('password-input').value
-    let user = {
-        fname: fname_input,
 
-        email: email_input,
-        password: password_input
+// Get the form element
+const loginForm = document.getElementById('log-in');
 
-    }
-    users.push(user)
-    localStorage.setItem("users", JSON.stringify(users))
-    document.getElementById('fname-input').value = ''
+// Add a submit event listener to the form
+loginForm.addEventListener('submit', (event) => {
+    event.preventDefault(); // Prevent form's default submission behavior
 
-    document.getElementById('email-input').value = ''
-    document.getElementById('password-input').value = ''
-}
-
-function checkInputValue(value1, value2) {
-    if (value1 == value2) {
-        return true
-    }
-    return false
-}
-
-function login() {
-    let email_input = document.getElementById('email-input').value
-    let password_input = document.getElementById('password-input').value
-    let userStorage = JSON.parse(localStorage.getItem('users'))
-    for (let i = 0; i < userStorage.length; i++) {
-        if (checkInputValue(email_input, userStorage[i].email)) {
-            if (checkInputValue(password_input, userStorage[i].password)) {
-                alert('login sucessfully!')
-                return
-            } else {
-                alert('Wrong password!')
-                return
-            }
-        } else {
-            alert('User is not existed!')
-            return
-        }
-    }
-}
-const progressCircle = document.querySelector(".autoplay-progress svg");
-const progressContent = document.querySelector(".autoplay-progress span");
-
-const swiperEl = document.querySelector("swiper-container");
-swiperEl.addEventListener("autoplaytimeleft", (e) => {
-    const [swiper, time, progress] = e.detail;
-    progressCircle.style.setProperty("--progress", 1 - progress);
-    progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+    // Get input values
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    console.log(email, password)
+    // Sign in using Firebase Authentication
+    signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+            const user = userCredential.user;
+            alert('Welcome back, ' + user.email);
+            // Redirect to a home page or dashboard
+            window.location.href = "./index.html";
+        })
+        .catch((error) => {
+            const errorMessage = error.message;
+            document.getElementById('error-message').innerText = errorMessage;
+        });
 });
